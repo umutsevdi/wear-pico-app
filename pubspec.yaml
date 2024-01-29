@@ -1,0 +1,42 @@
+name: smartwatch_app
+description: "A mobile application for the Smartwatch"
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  system_media_controller: ^0.0.2
+  bluetooth_classic: ^0.0.1
+  intl: 0.19.0
+  nowplaying: 2.1.0
+  shared_preferences: ^2.2.2
+  phone_state: 1.0.3
+  permission_handler: ^11.1.0
+  flutter_charts: ^0.5.2
+    # When depending on this package from a real application you should use:
+    #   bluetooth_classic: ^x.y.z
+    # See https://dart.dev/tools/pub/dependencies#version-constraints
+    # The example app is bundled with the plugin so we use a path dependency on
+  # the parent directory to use the current plugin's version.
+# path: ../
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  reflex: ^0.0.2
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
